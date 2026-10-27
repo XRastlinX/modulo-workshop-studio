@@ -8,7 +8,7 @@ Artifact: Modulo Workshop local starter. Scope: arithmetic, MCP stdio, media out
 | Actual MCP client | Initialization, exact two-tool discovery and example call passed | No particular desktop host integration |
 | MP4 | H.264, 1280x720, 24fps, 12 seconds, silent | No narration or audience comprehension test |
 | Visual review | Final decoded frame inspected: dial at 3, total 15, quotient 1 and identity visible | One frame inspected, not every possible input |
-| Discord | Adapter imported without a network connection; offline registration and allowlist checks in tests/test_discord_adapter.py | No live registration, upload or reconnect observation |
+| Discord | Two offline tests passed: missing configuration refuses startup; exactly three guild commands, zero global commands, wrong guild/user denied, allowed calculation returns expected result | No live registration, upload or reconnect observation |
 
 Sample MP4 SHA-256: `5b2827eb7550eea4db290d11f34071b3ac1476b1e019c8070b131835dfaea233`. This identifies one local render's bytes, not scientific truth. FFmpeg versions and font choices can change rendered bytes.
 
