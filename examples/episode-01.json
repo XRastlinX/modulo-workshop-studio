@@ -1,0 +1,10 @@
+{
+  "question": "Why does 10 + 5 land at 3 on a twelve-position dial?",
+  "why_it_matters": "A representation can retain position while omitting the number of full turns.",
+  "demonstration": "A 0–11 dial, five forward steps from 10, integer total and quotient shown alongside.",
+  "check": "At every step, total = quotient * 12 + residue and 0 <= residue < 12.",
+  "challenge": "A wrong label or disagreement with integer divmod under the same convention challenges the demonstration.",
+  "sources": ["https://docs.python.org/3/library/functions.html#divmod"],
+  "unresolved": ["Narration", "User comprehension", "Accessibility review beyond on-screen text"],
+  "production_status": "STARTER_DEMONSTRATION"
+}

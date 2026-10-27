@@ -1,0 +1,3 @@
+# Deliberate v1 compatibility target; see SOURCES.md.
+mcp==1.30.0
+Pillow==12.3.0
